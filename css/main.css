@@ -159,6 +159,11 @@ ul {
     .small-modal-link {
         margin-left: 0;
     }
+
+    .modal_panel button {
+        font-size: 13px;
+        line-height: 21px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -175,11 +180,6 @@ ul {
         display: flex;
         justify-content: flex-end;
         flex-direction: inherit;
-    }
-
-    .modal_panel button {
-        font-size: 13px;
-        line-height: 21px;
     }
 
     .section-small-carts .section-small-carts_content .row>div {
