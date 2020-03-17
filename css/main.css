@@ -110,6 +110,10 @@ ul {
     margin-bottom: 36px;
 }
 
+.section-small-carts .card-body{
+    padding: 25px 12px;
+}
+
 .section-pills_header {
     font-style: normal;
     font-weight: 500;
