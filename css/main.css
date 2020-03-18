@@ -197,3 +197,11 @@ ul {
         margin-bottom: 17px;
     }
 }
+
+@media (max-width: 767px) {
+
+    .modal_panel-r-block,
+    .modal_panel>div {
+        flex-direction: column;
+    }
+}

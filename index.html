@@ -28,37 +28,33 @@
 <main role="main">
 
     <!-- modal_panel -->
-    <section class="modal_panel">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <button type="button" class="btn btn-primary small-modal-link" data-toggle="modal" data-target="#exampleModal">Маленькое модальное окно</button>
-                </div>
-                <div class="col-md-6 modal_panel-right-block">
-                    <div><button type="button" class="btn btn-primary btn-default-modal" data-toggle="modal" data-target="#exampleModal2">Модальное окно</button></div>
-                    <div><button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal3">Большое модальное окно</button></div>
-                </div>
+    <section class="container modal_panel">
+        <div class="d-flex justify-content-between">
+            <div>
+                <button type="button" class="btn btn-primary small-modal-link" data-toggle="modal" data-target="#exampleModal">Маленькое модальное окно</button>
+            </div>
+            <div class="d-flex modal_panel-r-block">
+                <div><button type="button" class="btn btn-primary btn-default-modal" data-toggle="modal" data-target="#exampleModal2">Модальное окно</button></div>
+                <div><button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal3">Большое модальное окно</button></div>
             </div>
         </div>
     </section>
     <!-- end modal_panel -->
 
     <!-- container-description -->
-    <section class="container-description">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="container-description_header">Container</h2>
-                    <div class="container-description_text">
-                        <p>Это базовый элемент в Bootstrap и они необходимы при использовании нашей стандартной сеточной системы. Контейнеры используются для размещения в них содержимого, дополнений и (иногда) центрирования содержимого внутри них. Хотя контейнеры могут быть вложенными, большинство макетов не требуют вложенного контейнера.</p>
-                        <p>В Bootstrap используется три разных типа контейнеров:</p>
-                        <ul>
-                            <li>.container, который устанавливает максимальную ширину max-width в каждой отзывчивой точке останова;</li>
-                            <li>.container-fluid, ширина которого width: 100% на всех точках останова;</li>
-                            <li>.container-{breakpoint}, то есть ширина width: 100% до указанной точки останова.</li>
-                        </ul>
-                        <p>В приведенной ниже таблице показано, как максимальная ширина max-width каждого контейнера .container и .container-fluid сравнивается с исходными в каждой точке останова.</p>
-                    </div>
+    <section class="container container-description">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="container-description_header">Container</h2>
+                <div class="container-description_text">
+                    <p>Это базовый элемент в Bootstrap и они необходимы при использовании нашей стандартной сеточной системы. Контейнеры используются для размещения в них содержимого, дополнений и (иногда) центрирования содержимого внутри них. Хотя контейнеры могут быть вложенными, большинство макетов не требуют вложенного контейнера.</p>
+                    <p>В Bootstrap используется три разных типа контейнеров:</p>
+                    <ul>
+                        <li>.container, который устанавливает максимальную ширину max-width в каждой отзывчивой точке останова;</li>
+                        <li>.container-fluid, ширина которого width: 100% на всех точках останова;</li>
+                        <li>.container-{breakpoint}, то есть ширина width: 100% до указанной точки останова.</li>
+                    </ul>
+                    <p>В приведенной ниже таблице показано, как максимальная ширина max-width каждого контейнера .container и .container-fluid сравнивается с исходными в каждой точке останова.</p>
                 </div>
             </div>
         </div>
@@ -66,92 +62,90 @@
     <!-- end container-description -->
 
     <!-- section-news -->
-    <section class="section-news">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="section-news_header">Heading Section</h2>
-                    <div class="section-news_content">
+    <section class="container section-news">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="section-news_header">Heading Section</h2>
+                <div class="section-news_content">
 
-                        <div class="row">
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <img src="img/img.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card">
+                                <img src="img/img.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <img src="img/img.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Button</a>
-                                    </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card">
+                                <img src="img/img.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Button</a>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <img src="img/img.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card">
+                                <img src="img/img.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <img src="img/img.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card">
+                                <img src="img/img.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <img src="img/img.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card">
+                                <img src="img/img.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <img src="img/img.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Button</a>
-                                    </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card">
+                                <img src="img/img.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Button</a>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <img src="img/img.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card">
+                                <img src="img/img.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <img src="img/img.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card">
+                                <img src="img/img.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
-
                         </div>
 
                     </div>
+
                 </div>
             </div>
         </div>
@@ -159,78 +153,76 @@
     <!-- end section-news -->
 
     <!-- section-table -->
-    <section class="section-table">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="section-table_content">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">First Name</th>
-                                    <th scope="col">Last Name</th>
-                                    <th scope="col">User Name</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="table-active">
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                </tr>
-                                <tr class="table-success">
-                                    <th scope="row">3</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">4</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                                <tr class="table-info">
-                                    <th scope="row">5</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">6</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                                <tr class="table-warning">
-                                    <th scope="row">7</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">8</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                                <tr class="table-danger">
-                                    <th scope="row">9</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+    <section class="container section-table">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="section-table_content">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First Name</th>
+                            <th scope="col">Last Name</th>
+                            <th scope="col">User Name</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="table-active">
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr class="table-success">
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                        <tr class="table-info">
+                            <th scope="row">5</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <th scope="row">7</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <th scope="row">9</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
@@ -238,95 +230,93 @@
     <!-- end section-table -->
 
     <!-- section-small-carts -->
-    <section class="section-small-carts">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="section-small-carts_content">
+    <section class="container section-small-carts">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="section-small-carts_content">
 
-                        <div class="row">
+                    <div class="row">
 
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link another_link">Another link</a>
-                                    </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link another_link">Another link</a>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link another_link">Another link</a>
-                                    </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link another_link">Another link</a>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link another_link">Another link</a>
-                                    </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link another_link">Another link</a>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-lg-3 col-md-4 col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link another_link">Another link</a>
-                                    </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link another_link">Another link</a>
                                 </div>
                             </div>
+                        </div>
 
 
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link another_link">Another link</a>
-                                    </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link another_link">Another link</a>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link another_link">Another link</a>
-                                    </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link another_link">Another link</a>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link another_link">Another link</a>
-                                    </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link another_link">Another link</a>
                                 </div>
                             </div>
-
                         </div>
 
                     </div>
+
                 </div>
             </div>
         </div>
@@ -334,34 +324,48 @@
     <!-- end section-small-carts -->
 
     <!-- section-pills -->
-    <section class="section-pills">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="section-pills_header">Pills</h2>
-                    <div class="section-pills_panel">
-                        <ul class="nav nav-pills">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Active</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Another Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="section-pills_text">
-                        <div class="row">
-                            <div class="col-md-8 col-sm-12">
-                                <p>Навигация в Bootstrap имеет общую для подобного типа элементов разметку, от базового класса .nav до активных и «выключенных» состояний. Заменяйте классы-модификаторы для переключения между стилями.</p>
-                                <p>Базовый компонент класса .nav создан на флексбоксе, что обеспечивает хорошую базу для создания всех типов навигационных компонентов. В него входят несколько стилей, которые «перебивают» остальные (для работы со списками), добавлены паддинги ссылок для увеличения «зоны клика», и базовые стили «выключенных» состояний.</p>
-                            </div>
+    <section class="container section-pills">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="section-pills_header">Pills</h2>
+                <div class="section-pills_panel">
+                    <ul class="nav nav-pills" id="myList" role="tablist">
+                        <li class="nav-item">
+                            <a data-toggle="list" class="nav-link active" href="#tab1" role="tab">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-toggle="list" class="nav-link" href="#tab2" role="tab">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-toggle="list" class="nav-link" href="#tab3" role="tab">Another Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-toggle="list" class="nav-link disabled" href="#tab4" tabindex="-1" aria-disabled="true" role="tab">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="section-pills_text">
+                    <div class="row tab-content">
+                        <div class="col-md-8 col-sm-12 tab-pane active" id="tab1" role="tabpanel">
+                            <p>#1 Навигация в Bootstrap имеет общую для подобного типа элементов разметку, от базового класса .nav до активных и «выключенных» состояний. Заменяйте классы-модификаторы для переключения между стилями.</p>
+                            <p>Базовый компонент класса .nav создан на флексбоксе, что обеспечивает хорошую базу для создания всех типов навигационных компонентов. В него входят несколько стилей, которые «перебивают» остальные (для работы со списками), добавлены паддинги ссылок для увеличения «зоны клика», и базовые стили «выключенных» состояний.</p>
                         </div>
+
+                        <div class="col-md-8 col-sm-12 tab-pane" id="tab2" role="tabpanel">
+                            <p>#2 Навигация в Bootstrap имеет общую для подобного типа элементов разметку, от базового класса .nav до активных и «выключенных» состояний. Заменяйте классы-модификаторы для переключения между стилями.</p>
+                            <p>Базовый компонент класса .nav создан на флексбоксе, что обеспечивает хорошую базу для создания всех типов навигационных компонентов. В него входят несколько стилей, которые «перебивают» остальные (для работы со списками), добавлены паддинги ссылок для увеличения «зоны клика», и базовые стили «выключенных» состояний.</p>
+                        </div>
+
+                        <div class="col-md-8 col-sm-12 tab-pane" id="tab3" role="tabpanel">
+                            <p>#3 Навигация в Bootstrap имеет общую для подобного типа элементов разметку, от базового класса .nav до активных и «выключенных» состояний. Заменяйте классы-модификаторы для переключения между стилями.</p>
+                            <p>Базовый компонент класса .nav создан на флексбоксе, что обеспечивает хорошую базу для создания всех типов навигационных компонентов. В него входят несколько стилей, которые «перебивают» остальные (для работы со списками), добавлены паддинги ссылок для увеличения «зоны клика», и базовые стили «выключенных» состояний.</p>
+                        </div>
+
+                        <div class="col-md-8 col-sm-12 tab-pane" id="tab4" role="tabpanel">
+                            <p>#4 Навигация в Bootstrap имеет общую для подобного типа элементов разметку, от базового класса .nav до активных и «выключенных» состояний. Заменяйте классы-модификаторы для переключения между стилями.</p>
+                            <p>Базовый компонент класса .nav создан на флексбоксе, что обеспечивает хорошую базу для создания всех типов навигационных компонентов. В него входят несколько стилей, которые «перебивают» остальные (для работы со списками), добавлены паддинги ссылок для увеличения «зоны клика», и базовые стили «выключенных» состояний.</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
